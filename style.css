@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#wrapper {
+    margin-top: 200px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#wrapper div#date{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+div#wrapper div#clock {
+    font-size: 100px;
+}
